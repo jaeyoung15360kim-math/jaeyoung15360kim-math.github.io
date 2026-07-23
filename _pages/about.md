@@ -14,7 +14,7 @@ profile:
     <p><strong>Advisor:</strong> Prof. Seonhee Lim</p>
     <p><strong>Email:</strong> <span class="email-protected">jaeyoungkim22 (at) snu.ac.kr</span></p>
     <p><strong>GitHub:</strong> <a href="https://github.com/young15360" target="_blank">young15360</a></p>
-    <p><strong>Curriculum Vitae:</strong> <a href="/assets/pdf/CV_Jaeyoung_Kim.pdf" target="_blank" class="badge font-weight-bold">CV (PDF)</a> | <a href="/assets/pdf/CV_Jaeyoung_Kim.tex" target="_blank" class="badge font-weight-bold">CV (TeX)</a></p>
+    <p><strong>Curriculum Vitae:</strong> <a href="{{ '/assets/pdf/CV_Jaeyoung_Kim.pdf' | relative_url }}" target="_blank" class="badge font-weight-bold">CV (PDF)</a> | <a href="{{ '/assets/pdf/CV_Jaeyoung_Kim.tex' | relative_url }}" target="_blank" class="badge font-weight-bold">CV (TeX)</a></p>
     <p><strong>Address:</strong> 1, Gwanak-ro, Gwanak-gu, Seoul, 08826, South Korea</p>
 
 selected_papers: true
@@ -29,7 +29,7 @@ latest_posts:
 I am a Ph.D. student in the [Department of Mathematical Sciences](https://math.snu.ac.kr) at **Seoul National University (SNU)**, working under the supervision of [Prof. Seonhee Lim](https://www.math.snu.ac.kr/~lim/research.html) in the [DASOM](https://www.math.snu.ac.kr/~lim/DASOM.html) research group.
 
 ✉️ **Contact Email**: <span class="email-protected font-weight-bold">jaeyoungkim22 (at) snu.ac.kr</span>  
-📄 **Curriculum Vitae**: You can view or download my official [<i class="fa-solid fa-file-pdf"></i> **CV**](/assets/pdf/CV_Jaeyoung_Kim.pdf) (PDF) or [<i class="fa-solid fa-file-code"></i> **LaTeX source**](/assets/pdf/CV_Jaeyoung_Kim.tex) (TeX).
+📄 **Curriculum Vitae**: You can view or download my official [<i class="fa-solid fa-file-pdf"></i> **CV**]({{ '/assets/pdf/CV_Jaeyoung_Kim.pdf' | relative_url }}) (PDF) or [<i class="fa-solid fa-file-code"></i> **LaTeX source**]({{ '/assets/pdf/CV_Jaeyoung_Kim.tex' | relative_url }}) (TeX).
 
 ### Research Interests
 My primary research area is **Homogeneous Dynamics** of higher-rank Lie groups over real or non-Archimedean local field settings, Ergodic Theory, and dynamics on buildings.
