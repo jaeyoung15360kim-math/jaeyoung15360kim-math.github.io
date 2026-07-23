@@ -1,0 +1,50 @@
+<header class="custom-header">
+  <nav class="custom-navbar">
+    <div class="nav-container">
+      <!-- Site Brand / Title (Left) -->
+      <a class="nav-brand" href="{{ '/' | relative_url }}">
+        {% if site.title %}
+          <span class="font-bold">{{ site.title }}</span>
+        {% else %}
+          <span class="font-bold">{{ site.first_name }}</span> {{ site.last_name }}
+        {% endif %}
+      </a>
+
+      <!-- Right Navigation Items (Horizontal Row) -->
+      <div class="nav-right">
+        <ul class="nav-menu">
+          {% for p in site.pages %}
+            {% if p.nav and p.nav == true %}
+              <li class="nav-item">
+                <a class="nav-link {% if page.url == p.url %}active{% endif %}" href="{{ p.url | relative_url }}">
+                  {{ p.title }}
+                </a>
+              </li>
+            {% endif %}
+          {% endfor %}
+
+          {% if site.al_folio.features.cv.enabled %}
+            <li class="nav-item">
+              <a class="nav-link {% if page.url == '/cv/' %}active{% endif %}" href="{{ '/cv/' | relative_url }}">
+                CV
+              </a>
+            </li>
+          {% endif %}
+        </ul>
+
+        <!-- Utilities: Theme toggle & Search -->
+        <div class="nav-utilities">
+          {% if site.search_enabled %}
+            <button id="search-toggle" class="nav-icon-btn" aria-label="Search" title="Search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          {% endif %}
+
+          <button id="light-toggle-mode" class="nav-icon-btn" aria-label="Toggle theme" title="Toggle theme">
+            <i id="light-toggle-icon" class="fa-solid fa-moon"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>

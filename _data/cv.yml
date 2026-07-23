@@ -1,189 +1,322 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Jaeyoung Kim
+  label: Ph.D. Student
+  email: jaeyoungkim22@snu.ac.kr
+  location: Seoul, South Korea
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: Ph.D. student at Seoul National University researching Homogeneous Dynamics, Ergodic Theory, and dynamics on Lie groups & buildings under the supervision of Prof. Seonhee Lim.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
+      username: young15360
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+    street: 1, Gwanak-ro, Gwanak-gu
+    city: Seoul
+    region: Seoul
+    postalCode: "08826"
+    countryCode: KR
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: Seoul National University (SNU)
+        location: Seoul, South Korea
+        area: Homogeneous Dynamics (PI: Seonhee Lim)
+        studyType: Graduate Research Assistant
+        start_date: "2022-08"
+        end_date: Present
+
+      - institution: Seoul National University (SNU)
+        location: Seoul, South Korea
+        area: Mathematical Sciences
+        studyType: Integrated M.S. / Ph.D. Course
+        start_date: "2022-03"
+        end_date: Present
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Advisor: Prof. Seonhee Lim (DASOM Lab)"
+          - "Research Focus: Homogeneous Dynamics & Ergodic Theory"
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: Seoul National University (SNU)
+        location: Seoul, South Korea
+        area: Quantum Information Theory (PI: Sang-Gyun Youn)
+        studyType: Research Internship
+        start_date: "2020-06"
+        end_date: "2021-03"
+
+      - institution: Seoul National University (SNU)
+        location: Seoul, South Korea
+        area: Mathematical Education
+        studyType: Bachelor of Science (B.S.)
+        start_date: "2016-03"
+        end_date: "2022-02"
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Leave for Mandatory Military Service (1/2018 - 9/2019)"
 
-    Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        highlights:
-          - Relativity
-          - Description 2.
-
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
+    Publications & Preprints:
+      - title: "Irreducibly SU(2)-covariant quantum channels of low rank"
         authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+          - Euijung Chang
+          - Jaeyoung Kim
+          - Hyesun Kwak
+          - Hun Hee Lee
+          - Sang-Gyun Youn
+        publisher: Reviews in Mathematical Physics, 34(07), 2250021
+        releaseDate: "2022"
 
-      - title: Max Planck Medal
+      - title: "Markov chain of diagonal action on the standard quotient of the building associated to PGL3(Fq((t^-1)))"
         authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+          - Jaeyoung Kim
+          - Sanghoon Kwon
+          - Seonhee Lim
+        publisher: Work in progress
+        releaseDate: "2026+"
 
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: "Distribution of periodic torus orbits on Siegel modular variety and Duke's theorem for matrix-valued quadratic form"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Jaeyoung Kim
+        publisher: Work in progress
+        releaseDate: "2026+"
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+    Talks:
+      - title: "Markov chain of diagonal action on the standard quotient of the building associated to PGL3(Fq((t^-1)))"
+        location: "Trieste, Italy"
+        date: "2025-06"
+        summary: "Poster Session, Beyond Uniform Hyperbolicity, Abdus Salam International Centre for Theoretical Physics (ICTP)"
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+      - title: "Markov chain of diagonal action on the standard quotient of the building associated to PGL3(Fq((t^-1)))"
+        location: "Suwon, South Korea"
+        date: "2024-10"
+        summary: "Special Session, 2024 KMS Annual Meeting, Korean Mathematical Society (KMS)"
 
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - title: "Dynamical property for horospherical action on the standard quotient of the building B3(Fq((t^-1)))"
+        location: "Seoul, South Korea"
+        date: "2024-08"
+        summary: "Lightning Talk, Dynamical Group Theory III: New Methods in Group Actions on Manifolds, KIAS"
+
+      - title: "Dynamical property for horospherical action on the standard quotient of the building B3(Fq((t^-1)))"
+        location: "Marseille, France"
+        date: "2024-04"
+        summary: "Lightning Talk, Introductory school: Rigidity, Dynamics and Geometric Structures, CIRM"
+
+      - title: "Non-escape of mass for horospherical action on the standard quotient of the building B3(Fq((t^-1))) under type 1 geodesic flow"
+        location: "SNU, Seoul, South Korea"
+        date: "2023-10"
+        summary: "Poster Session, 2023 KMS Annual Fall Meeting, KMS"
+
+    Presentations & Seminar Talks:
+      - title: "Work of Lindenstrauss, Margulis, Mohammadi, Shah: Effective Avoidance Principle and Diophantine Condition"
+        date: "2025-04"
+        summary: "Research Seminar on Homogeneous Dynamics"
+
+      - title: "Work of Cantat, DuJardin: Hyperbolic dynamics on Compact Kähler Surfaces"
+        date: "2024-12"
+        summary: "Course: Topics in Topology"
+
+      - title: "Quasi-Fuchsian groups and Bers' Simultaneous Uniformization theorem"
+        date: "2024-11"
+        summary: "SNU Graduate Course: Differential Geometry 2"
+
+      - title: "Sullivan's No Wandering Domain Theorem"
+        date: "2024-10"
+        summary: "SNU Graduate Course: Differential Geometry 2"
+
+      - title: "Markov chain of diagonal action on the standard quotient of the building associated to PGL3(Fq((t^-1)))"
+        date: "2024-10"
+        summary: "Exchange Seminar"
+
+      - title: "Iteration of Polynomial-like maps"
+        date: "2024-09"
+        summary: "SNU Graduate Course: Differential Geometry 2"
+
+      - title: "The Scope of Dirichlet forms: Closability and Examples"
+        date: "2024-04"
+        summary: "Course: Topics in Mathematical Methods of Probability"
+
+      - title: "Bruhat-Tits tree of SL2 over a local field"
+        date: "2024-03"
+        summary: "Research Seminar on Homogeneous Dynamics, SNU"
+
+      - title: "Work of Ciobotaru, Finkelshtein, Sert: Non-escape of mass and Equidistribution for Horospherical actions on Trees"
+        date: "2023-08"
+        summary: "Exchange Seminar, SNU"
+
+      - title: "Work of Michel, Venkatesh: Equidistribution, L-functions and Ergodic theory"
+        date: "2023-06"
+        summary: "Course: Topics in Topology"
+
+    Seminars:
+      - title: "Exchange Seminar"
+        location: "SNU"
+        date: "2023-01 - Present"
+        summary: "Supervisor: Gyeseon Lee"
+
+      - title: "Reading Seminar on Arithmetic of Hyperbolic 3-manifolds"
+        location: "SNU"
+        date: "2023-09 - 2024-08"
+
+      - title: "Research Seminar on Homogeneous Dynamics"
+        location: "SNU"
+        date: "2022-09 - Present"
+        summary: "Supervisor: Seonhee Lim"
+
+    Conferences Attended:
+      - title: "2026 Algebra Camp"
+        location: "Chuncheon, South Korea"
+        date: "2026-01"
+
+      - title: "Dynamical Group Theory VII"
+        location: "SNU, Seoul, South Korea"
+        date: "2025-11"
+
+      - title: "2025 KMS Annual Meeting"
+        location: "KMS, Seoul, South Korea"
+        date: "2025-10"
+
+      - title: "Dynamical Group Theory VI"
+        location: "KIAS, Seoul, South Korea"
+        date: "2025-09"
+
+      - title: "Numeration and Substitution 2025"
+        location: "University of Tsukuba, Japan"
+        date: "2025-09"
+
+      - title: "2025 2K-GATE One day Geometric Topology Festival"
+        location: "KIAS, Seoul, South Korea"
+        date: "2025-08"
+
+      - title: "A Summer Dynamics Day"
+        location: "Dongguk University, Seoul, South Korea"
+        date: "2025-08"
+
+      - title: "One-day Festival of Group actions, Geometry and Dynamics"
+        location: "KIAS, Seoul, South Korea"
+        date: "2025-08"
+
+      - title: "Geometry and Dynamics in Higher Rank Lie Groups"
+        location: "SLMath, Berkeley, USA"
+        date: "2025-07"
+
+      - title: "Beyond Uniform Hyperbolicity"
+        location: "ICTP, Trieste, Italy"
+        date: "2025-06"
+
+      - title: "2025 KMS Spring Meeting"
+        location: "KMS, Daejeon, South Korea"
+        date: "2025-04"
+
+      - title: "Workshop on Homogeneous and Complex Dynamics 2025"
+        location: "SNU, Seoul, South Korea"
+        date: "2025-03"
+
+      - title: "KIAS-LFANT Winter School on Number Theory"
+        location: "KIAS, Seoul, South Korea"
+        date: "2025-01"
+
+      - title: "2024 KMS Annual Meeting"
+        location: "KMS, Suwon, South Korea"
+        date: "2024-10"
+
+      - title: "Dynamical Group Theory IV: KIAS-Rice Workshop on Geometric Topology"
+        location: "HCMC of KIAS, Seoul, South Korea"
+        date: "2024-09"
+
+      - title: "Dynamical Group Theory III: New Methods in Group Actions on Manifolds"
+        location: "KIAS, Seoul, South Korea"
+        date: "2024-08"
+
+      - title: "Number Theory Intensive Lecture Series: Introduction to p-adic Hodge theory"
+        location: "POSTECH, Pohang, South Korea"
+        date: "2024-06"
+
+      - title: "Introductory school: Rigidity, Dynamics and Geometric Structures"
+        location: "CIRM, Marseille, France"
+        date: "2024-04"
+
+      - title: "2024 Algebra Camp"
+        location: "Yangpyeong, South Korea"
+        date: "2024-02"
+
+      - title: "Winter School on Homogeneous Dynamics"
+        location: "SCMS, Fudan University, Shanghai, China"
+        date: "2024-01"
+
+      - title: "Hyperbolic Geometry of Numbers"
+        location: "HCMC of KIAS, Seoul"
+        date: "2023-12"
+
+      - title: "2023 KMS Annual Fall Meeting: KMS Special Conference with 2022 Fields Medalists"
+        location: "KMS, Seoul"
+        date: "2023-10"
+
+      - title: "Summer School on Arithmetic Statistics"
+        location: "KIAS, Seoul"
+        date: "2023-08"
+
+      - title: "2023 KMS Spring Meeting"
+        location: "KMS, Daejeon"
+        date: "2023-04"
+
+      - title: "Workshop on Dynamics of Group Action"
+        location: "Gangneung, South Korea"
+        date: "2023-04"
+
+      - title: "QSMS 2023 Winter Workshop on Number Theory and Representation Theory"
+        location: "QSMS, Jeonju, South Korea"
+        date: "2023-01 - 2023-02"
+
+    Teaching:
+      - title: "TA: Differential and Integral Calculus Practice 1 (003) & 2 (005)"
+        location: "SNU"
+        date: "Spring & Fall 2025"
+
+      - title: "TA: Calculus Practice 2 (001, 026)"
+        location: "SNU"
+        date: "Spring & Fall 2024"
+
+      - title: "TA: Honor Calculus Practice 2 (006)"
+        location: "SNU"
+        date: "Spring 2023"
+
+      - title: "Grader: Number Theory (001)"
+        location: "SNU"
+        date: "Spring 2023"
+
+      - title: "TA: Calculus Practice 1 (021)"
+        location: "SNU"
+        date: "Spring 2023"
+
+      - title: "TA: Calculus Practice 1 (022) & 2 (009)"
+        location: "SNU"
+        date: "Spring & Fall 2022"
+
+      - title: "Teaching Practice"
+        location: "Seoul National University Middle School"
+        date: "2021-05"
+
+      - title: "Teaching Volunteer"
+        location: "Guhyun High School"
+        date: "2020"
+
+    Honors & Fellowships:
+      - title: "Graduate Student Instructor Scholarship"
+        awarder: "Seoul National University"
+        date: "2022-03 - Present"
+
+      - title: "BK21 Research Fellowship"
+        awarder: "Seoul National University"
+        date: "2022-03 - 2023-02, 2023-09 - 2025-02, 2025-09 - Present"
+
+      - title: "Next-Generation Scholars in Fundamental Academic Disciplines"
+        awarder: "Seoul National University"
+        date: "2023-03 - 2023-08"
 
     Languages:
-      - name: German
-        summary: "Native speaker"
-
       - name: English
-        summary: "Fluent"
+        summary: "B2 level"
+      - name: Korean
+        summary: "Native"
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    Extra:
+      - title: "Military Service"
+        summary: "Army sergeant, Discharge after Completing Mandatory Service (Korean Army)"
+        date: "2018-01 - 2019-09"

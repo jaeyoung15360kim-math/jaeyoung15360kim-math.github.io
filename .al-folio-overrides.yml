@@ -1,0 +1,5 @@
+overrides:
+  - path: _includes/head.liquid
+    status: accepted
+  - path: _includes/header.liquid
+    status: accepted
