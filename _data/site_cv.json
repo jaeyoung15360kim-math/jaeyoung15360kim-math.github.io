@@ -1,0 +1,94 @@
+{
+  "generated_from": "CV_Jaeyoung_Kim.tex",
+  "education": [
+    {
+      "date": "8/2022 - present",
+      "title": "Graduate Research Assistant",
+      "institution": "Seoul National University (SNU)",
+      "details": "Homogeneous Dynamics (PI: Seonhee Lim)"
+    },
+    {
+      "date": "3/2022 - present",
+      "title": "Integrated MA/Ph.D Course Master Course",
+      "institution": "SNU",
+      "details": "Mathematical Sciences"
+    },
+    {
+      "date": "6/2020 - 3/2021",
+      "title": "Research Internship",
+      "institution": "SNU",
+      "details": "Quantum Information Theory (PI: Sang-Gyun Youn)"
+    },
+    {
+      "date": "3/2016 - 2/2022",
+      "title": "Bachelor of Science",
+      "institution": "SNU",
+      "details": "Mathematical Education / Leave for Mandatory Military Service (1/2018 - 9/2019)"
+    }
+  ],
+  "publications": [
+    {
+      "id": "irreducibly-su-2-covariant-quantum-channels-of-low-rank",
+      "authors": "Euijung Chang, Jaeyoung Kim, Hyesun Kwak, Hun Hee Lee, Sang-Gyun Youn",
+      "year": "2022",
+      "title": "Irreducibly $SU (2)$-covariant quantum channels of low rank",
+      "venue": "Reviews in Mathematical Physics, 34(07), 2250021"
+    },
+    {
+      "id": "markov-chain-of-diagonal-action-on-the-standard-quotient-of-the-building-associated-to-pgl-3left-f-q-t-1-right",
+      "authors": "Jaeyoung Kim, Sanghoon Kwon, Seonhee Lim",
+      "year": "2026+",
+      "title": "Markov chain of diagonal action on the standard quotient of the building associated to $\\mathrm{PGL}_3\\left(\\mathbb{F}_q((t^{-1}))\\right)$",
+      "venue": "Work in progress"
+    },
+    {
+      "id": "distribution-of-periodic-torus-orbits-on-siegel-modular-variety-and-duke-s-theorem-for-matrix-valued-quadratic-form",
+      "authors": "Jaeyoung Kim",
+      "year": "2026+",
+      "title": "Distribution of periodic torus orbits on Siegel modular variety and Duke's theorem for matrix-valued quadratic form",
+      "venue": "Work in progress"
+    }
+  ],
+  "teaching": [
+    {
+      "date": "Spring & Fall 2025",
+      "title": "TA: Differential and Integral Calculus Practice 1 (003) & 2 (005)",
+      "institution": "SNU"
+    },
+    {
+      "date": "Spring & Fall 2024",
+      "title": "TA: Calculus Practice 2 (001, 026)",
+      "institution": "SNU"
+    },
+    {
+      "date": "Spring 2023",
+      "title": "TA: Honor Calculus Practice 2 (006)",
+      "institution": "SNU"
+    },
+    {
+      "date": "Spring 2023",
+      "title": "Grader: Number Theory (001)",
+      "institution": "SNU"
+    },
+    {
+      "date": "Spring 2023",
+      "title": "TA: Calculus Practice 1 (021)",
+      "institution": "SNU"
+    },
+    {
+      "date": "Spring & Fall 2022",
+      "title": "TA: Calculus Practice 1 (022) & 2 (009)",
+      "institution": "SNU"
+    },
+    {
+      "date": "05/2021",
+      "title": "Teaching Practice",
+      "institution": "Seoul National University Middle School"
+    },
+    {
+      "date": "Summer & Winter / 2020",
+      "title": "Teaching Volunteer",
+      "institution": "Guhyun High School"
+    }
+  ]
+}

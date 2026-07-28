@@ -13,21 +13,14 @@
       <!-- Right Navigation Items (Horizontal Row) -->
       <div class="nav-right">
         <ul class="nav-menu">
-          {% for p in site.pages %}
-            {% if p.nav and p.nav == true %}
-              <li class="nav-item">
-                <a class="nav-link {% if page.url == p.url %}active{% endif %}" href="{{ p.url | relative_url }}">
-                  {{ p.title }}
-                </a>
-              </li>
-            {% endif %}
-          {% endfor %}
-
-          {% if site.al_folio.features.cv.enabled %}
+          {% assign nav_pages = site.pages | where: 'nav', true | sort: 'nav_order' %}
+          {% for p in nav_pages %}
             <li class="nav-item">
-              <a class="nav-link {% if page.url == '/cv/' %}active{% endif %}" href="{{ '/cv/' | relative_url }}"> CV </a>
+              <a class="nav-link {% if page.url == p.url %}active{% endif %}" href="{{ p.url | relative_url }}">
+                {{ p.title }}
+              </a>
             </li>
-          {% endif %}
+          {% endfor %}
         </ul>
 
         <!-- Utilities: Theme toggle & Search -->
