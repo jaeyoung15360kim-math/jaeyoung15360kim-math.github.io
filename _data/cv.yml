@@ -1,37 +1,31 @@
 cv:
   name: Jaeyoung Kim
-  label: Ph.D. Student
+  headline: Ph.D. Student
   email: jaeyoungkim22@snu.ac.kr
-  location: Seoul, South Korea
-  image: ""
-  summary: Ph.D. student at Seoul National University researching Homogeneous Dynamics, Ergodic Theory, and dynamics on Lie groups & buildings under the supervision of Prof. Seonhee Lim.
+  location: 1, Gwanak-ro, Gwanak-gu, Seoul 08826, South Korea
 
   social_networks:
     - network: GitHub
       username: young15360
 
-  address:
-    street: 1, Gwanak-ro, Gwanak-gu
-    city: Seoul
-    region: Seoul
-    postalCode: "08826"
-    countryCode: KR
-
   sections:
+    Summary:
+      - Ph.D. student at Seoul National University researching Homogeneous Dynamics, Ergodic Theory, and dynamics on Lie groups & buildings under the supervision of Prof. Seonhee Lim.
+
     Education:
       - institution: Seoul National University (SNU)
         location: Seoul, South Korea
         area: "Homogeneous Dynamics (PI: Seonhee Lim)"
-        studyType: Graduate Research Assistant
+        degree: Graduate Research Assistant
         start_date: "2022-08"
-        end_date: Present
+        end_date: present
 
       - institution: Seoul National University (SNU)
         location: Seoul, South Korea
         area: Mathematical Sciences
-        studyType: Integrated M.S. / Ph.D. Course
+        degree: Integrated M.S. / Ph.D. Course
         start_date: "2022-03"
-        end_date: Present
+        end_date: present
         highlights:
           - "Advisor: Prof. Seonhee Lim (DASOM Lab)"
           - "Research Focus: Homogeneous Dynamics & Ergodic Theory"
@@ -39,14 +33,14 @@ cv:
       - institution: Seoul National University (SNU)
         location: Seoul, South Korea
         area: "Quantum Information Theory (PI: Sang-Gyun Youn)"
-        studyType: Research Internship
+        degree: Research Internship
         start_date: "2020-06"
         end_date: "2021-03"
 
       - institution: Seoul National University (SNU)
         location: Seoul, South Korea
         area: Mathematical Education
-        studyType: Bachelor of Science (B.S.)
+        degree: Bachelor of Science (B.S.)
         start_date: "2016-03"
         end_date: "2022-02"
         highlights:
@@ -60,254 +54,254 @@ cv:
           - Hyesun Kwak
           - Hun Hee Lee
           - Sang-Gyun Youn
-        publisher: Reviews in Mathematical Physics, 34(07), 2250021
-        releaseDate: "2022"
+        journal: Reviews in Mathematical Physics, 34(07), 2250021
+        date: "2022"
 
       - title: "Markov chain of diagonal action on the standard quotient of the building associated to PGL3(Fq((t^-1)))"
         authors:
           - Jaeyoung Kim
           - Sanghoon Kwon
           - Seonhee Lim
-        publisher: Work in progress
-        releaseDate: "2026+"
+        journal: Work in progress
+        date: "2026+"
 
       - title: "Distribution of periodic torus orbits on Siegel modular variety and Duke's theorem for matrix-valued quadratic form"
         authors:
           - Jaeyoung Kim
-        publisher: Work in progress
-        releaseDate: "2026+"
+        journal: Work in progress
+        date: "2026+"
 
     Talks:
-      - title: "Markov chain of diagonal action on the standard quotient of the building associated to PGL3(Fq((t^-1)))"
+      - name: "Markov chain of diagonal action on the standard quotient of the building associated to PGL3(Fq((t^-1)))"
         location: "Trieste, Italy"
         date: "2025-06"
         summary: "Poster Session, Beyond Uniform Hyperbolicity, Abdus Salam International Centre for Theoretical Physics (ICTP)"
 
-      - title: "Markov chain of diagonal action on the standard quotient of the building associated to PGL3(Fq((t^-1)))"
+      - name: "Markov chain of diagonal action on the standard quotient of the building associated to PGL3(Fq((t^-1)))"
         location: "Suwon, South Korea"
         date: "2024-10"
         summary: "Special Session, 2024 KMS Annual Meeting, Korean Mathematical Society (KMS)"
 
-      - title: "Dynamical property for horospherical action on the standard quotient of the building B3(Fq((t^-1)))"
+      - name: "Dynamical property for horospherical action on the standard quotient of the building B3(Fq((t^-1)))"
         location: "Seoul, South Korea"
         date: "2024-08"
         summary: "Lightning Talk, Dynamical Group Theory III: New Methods in Group Actions on Manifolds, KIAS"
 
-      - title: "Dynamical property for horospherical action on the standard quotient of the building B3(Fq((t^-1)))"
+      - name: "Dynamical property for horospherical action on the standard quotient of the building B3(Fq((t^-1)))"
         location: "Marseille, France"
         date: "2024-04"
         summary: "Lightning Talk, Introductory school: Rigidity, Dynamics and Geometric Structures, CIRM"
 
-      - title: "Non-escape of mass for horospherical action on the standard quotient of the building B3(Fq((t^-1))) under type 1 geodesic flow"
+      - name: "Non-escape of mass for horospherical action on the standard quotient of the building B3(Fq((t^-1))) under type 1 geodesic flow"
         location: "SNU, Seoul, South Korea"
         date: "2023-10"
         summary: "Poster Session, 2023 KMS Annual Fall Meeting, KMS"
 
     Presentations & Seminar Talks:
-      - title: "Work of Lindenstrauss, Margulis, Mohammadi, Shah: Effective Avoidance Principle and Diophantine Condition"
+      - name: "Work of Lindenstrauss, Margulis, Mohammadi, Shah: Effective Avoidance Principle and Diophantine Condition"
         date: "2025-04"
         summary: "Research Seminar on Homogeneous Dynamics"
 
-      - title: "Work of Cantat, DuJardin: Hyperbolic dynamics on Compact Kähler Surfaces"
+      - name: "Work of Cantat, DuJardin: Hyperbolic dynamics on Compact Kähler Surfaces"
         date: "2024-12"
         summary: "Course: Topics in Topology"
 
-      - title: "Quasi-Fuchsian groups and Bers' Simultaneous Uniformization theorem"
+      - name: "Quasi-Fuchsian groups and Bers' Simultaneous Uniformization theorem"
         date: "2024-11"
         summary: "SNU Graduate Course: Differential Geometry 2"
 
-      - title: "Sullivan's No Wandering Domain Theorem"
+      - name: "Sullivan's No Wandering Domain Theorem"
         date: "2024-10"
         summary: "SNU Graduate Course: Differential Geometry 2"
 
-      - title: "Markov chain of diagonal action on the standard quotient of the building associated to PGL3(Fq((t^-1)))"
+      - name: "Markov chain of diagonal action on the standard quotient of the building associated to PGL3(Fq((t^-1)))"
         date: "2024-10"
         summary: "Exchange Seminar"
 
-      - title: "Iteration of Polynomial-like maps"
+      - name: "Iteration of Polynomial-like maps"
         date: "2024-09"
         summary: "SNU Graduate Course: Differential Geometry 2"
 
-      - title: "The Scope of Dirichlet forms: Closability and Examples"
+      - name: "The Scope of Dirichlet forms: Closability and Examples"
         date: "2024-04"
         summary: "Course: Topics in Mathematical Methods of Probability"
 
-      - title: "Bruhat-Tits tree of SL2 over a local field"
+      - name: "Bruhat-Tits tree of SL2 over a local field"
         date: "2024-03"
         summary: "Research Seminar on Homogeneous Dynamics, SNU"
 
-      - title: "Work of Ciobotaru, Finkelshtein, Sert: Non-escape of mass and Equidistribution for Horospherical actions on Trees"
+      - name: "Work of Ciobotaru, Finkelshtein, Sert: Non-escape of mass and Equidistribution for Horospherical actions on Trees"
         date: "2023-08"
         summary: "Exchange Seminar, SNU"
 
-      - title: "Work of Michel, Venkatesh: Equidistribution, L-functions and Ergodic theory"
+      - name: "Work of Michel, Venkatesh: Equidistribution, L-functions and Ergodic theory"
         date: "2023-06"
         summary: "Course: Topics in Topology"
 
     Seminars:
-      - title: "Exchange Seminar"
+      - name: "Exchange Seminar"
         location: "SNU"
         date: "2023-01 - Present"
         summary: "Supervisor: Gyeseon Lee"
 
-      - title: "Reading Seminar on Arithmetic of Hyperbolic 3-manifolds"
+      - name: "Reading Seminar on Arithmetic of Hyperbolic 3-manifolds"
         location: "SNU"
         date: "2023-09 - 2024-08"
 
-      - title: "Research Seminar on Homogeneous Dynamics"
+      - name: "Research Seminar on Homogeneous Dynamics"
         location: "SNU"
         date: "2022-09 - Present"
         summary: "Supervisor: Seonhee Lim"
 
     Conferences Attended:
-      - title: "2026 Algebra Camp"
+      - name: "2026 Algebra Camp"
         location: "Chuncheon, South Korea"
         date: "2026-01"
 
-      - title: "Dynamical Group Theory VII"
+      - name: "Dynamical Group Theory VII"
         location: "SNU, Seoul, South Korea"
         date: "2025-11"
 
-      - title: "2025 KMS Annual Meeting"
+      - name: "2025 KMS Annual Meeting"
         location: "KMS, Seoul, South Korea"
         date: "2025-10"
 
-      - title: "Dynamical Group Theory VI"
+      - name: "Dynamical Group Theory VI"
         location: "KIAS, Seoul, South Korea"
         date: "2025-09"
 
-      - title: "Numeration and Substitution 2025"
+      - name: "Numeration and Substitution 2025"
         location: "University of Tsukuba, Japan"
         date: "2025-09"
 
-      - title: "2025 2K-GATE One day Geometric Topology Festival"
+      - name: "2025 2K-GATE One day Geometric Topology Festival"
         location: "KIAS, Seoul, South Korea"
         date: "2025-08"
 
-      - title: "A Summer Dynamics Day"
+      - name: "A Summer Dynamics Day"
         location: "Dongguk University, Seoul, South Korea"
         date: "2025-08"
 
-      - title: "One-day Festival of Group actions, Geometry and Dynamics"
+      - name: "One-day Festival of Group actions, Geometry and Dynamics"
         location: "KIAS, Seoul, South Korea"
         date: "2025-08"
 
-      - title: "Geometry and Dynamics in Higher Rank Lie Groups"
+      - name: "Geometry and Dynamics in Higher Rank Lie Groups"
         location: "SLMath, Berkeley, USA"
         date: "2025-07"
 
-      - title: "Beyond Uniform Hyperbolicity"
+      - name: "Beyond Uniform Hyperbolicity"
         location: "ICTP, Trieste, Italy"
         date: "2025-06"
 
-      - title: "2025 KMS Spring Meeting"
+      - name: "2025 KMS Spring Meeting"
         location: "KMS, Daejeon, South Korea"
         date: "2025-04"
 
-      - title: "Workshop on Homogeneous and Complex Dynamics 2025"
+      - name: "Workshop on Homogeneous and Complex Dynamics 2025"
         location: "SNU, Seoul, South Korea"
         date: "2025-03"
 
-      - title: "KIAS-LFANT Winter School on Number Theory"
+      - name: "KIAS-LFANT Winter School on Number Theory"
         location: "KIAS, Seoul, South Korea"
         date: "2025-01"
 
-      - title: "2024 KMS Annual Meeting"
+      - name: "2024 KMS Annual Meeting"
         location: "KMS, Suwon, South Korea"
         date: "2024-10"
 
-      - title: "Dynamical Group Theory IV: KIAS-Rice Workshop on Geometric Topology"
+      - name: "Dynamical Group Theory IV: KIAS-Rice Workshop on Geometric Topology"
         location: "HCMC of KIAS, Seoul, South Korea"
         date: "2024-09"
 
-      - title: "Dynamical Group Theory III: New Methods in Group Actions on Manifolds"
+      - name: "Dynamical Group Theory III: New Methods in Group Actions on Manifolds"
         location: "KIAS, Seoul, South Korea"
         date: "2024-08"
 
-      - title: "Number Theory Intensive Lecture Series: Introduction to p-adic Hodge theory"
+      - name: "Number Theory Intensive Lecture Series: Introduction to p-adic Hodge theory"
         location: "POSTECH, Pohang, South Korea"
         date: "2024-06"
 
-      - title: "Introductory school: Rigidity, Dynamics and Geometric Structures"
+      - name: "Introductory school: Rigidity, Dynamics and Geometric Structures"
         location: "CIRM, Marseille, France"
         date: "2024-04"
 
-      - title: "2024 Algebra Camp"
+      - name: "2024 Algebra Camp"
         location: "Yangpyeong, South Korea"
         date: "2024-02"
 
-      - title: "Winter School on Homogeneous Dynamics"
+      - name: "Winter School on Homogeneous Dynamics"
         location: "SCMS, Fudan University, Shanghai, China"
         date: "2024-01"
 
-      - title: "Hyperbolic Geometry of Numbers"
+      - name: "Hyperbolic Geometry of Numbers"
         location: "HCMC of KIAS, Seoul"
         date: "2023-12"
 
-      - title: "2023 KMS Annual Fall Meeting: KMS Special Conference with 2022 Fields Medalists"
+      - name: "2023 KMS Annual Fall Meeting: KMS Special Conference with 2022 Fields Medalists"
         location: "KMS, Seoul"
         date: "2023-10"
 
-      - title: "Summer School on Arithmetic Statistics"
+      - name: "Summer School on Arithmetic Statistics"
         location: "KIAS, Seoul"
         date: "2023-08"
 
-      - title: "2023 KMS Spring Meeting"
+      - name: "2023 KMS Spring Meeting"
         location: "KMS, Daejeon"
         date: "2023-04"
 
-      - title: "Workshop on Dynamics of Group Action"
+      - name: "Workshop on Dynamics of Group Action"
         location: "Gangneung, South Korea"
         date: "2023-04"
 
-      - title: "QSMS 2023 Winter Workshop on Number Theory and Representation Theory"
+      - name: "QSMS 2023 Winter Workshop on Number Theory and Representation Theory"
         location: "QSMS, Jeonju, South Korea"
         date: "2023-01 - 2023-02"
 
     Teaching:
-      - title: "TA: Differential and Integral Calculus Practice 1 (003) & 2 (005)"
+      - name: "TA: Differential and Integral Calculus Practice 1 (003) & 2 (005)"
         location: "SNU"
         date: "Spring & Fall 2025"
 
-      - title: "TA: Calculus Practice 2 (001, 026)"
+      - name: "TA: Calculus Practice 2 (001, 026)"
         location: "SNU"
         date: "Spring & Fall 2024"
 
-      - title: "TA: Honor Calculus Practice 2 (006)"
+      - name: "TA: Honor Calculus Practice 2 (006)"
         location: "SNU"
         date: "Spring 2023"
 
-      - title: "Grader: Number Theory (001)"
+      - name: "Grader: Number Theory (001)"
         location: "SNU"
         date: "Spring 2023"
 
-      - title: "TA: Calculus Practice 1 (021)"
+      - name: "TA: Calculus Practice 1 (021)"
         location: "SNU"
         date: "Spring 2023"
 
-      - title: "TA: Calculus Practice 1 (022) & 2 (009)"
+      - name: "TA: Calculus Practice 1 (022) & 2 (009)"
         location: "SNU"
         date: "Spring & Fall 2022"
 
-      - title: "Teaching Practice"
+      - name: "Teaching Practice"
         location: "Seoul National University Middle School"
         date: "2021-05"
 
-      - title: "Teaching Volunteer"
+      - name: "Teaching Volunteer"
         location: "Guhyun High School"
         date: "2020"
 
     Honors & Fellowships:
-      - title: "Graduate Student Instructor Scholarship"
-        awarder: "Seoul National University"
+      - name: "Graduate Student Instructor Scholarship"
+        location: "Seoul National University"
         date: "2022-03 - Present"
 
-      - title: "BK21 Research Fellowship"
-        awarder: "Seoul National University"
+      - name: "BK21 Research Fellowship"
+        location: "Seoul National University"
         date: "2022-03 - 2023-02, 2023-09 - 2025-02, 2025-09 - Present"
 
-      - title: "Next-Generation Scholars in Fundamental Academic Disciplines"
-        awarder: "Seoul National University"
+      - name: "Next-Generation Scholars in Fundamental Academic Disciplines"
+        location: "Seoul National University"
         date: "2023-03 - 2023-08"
 
     Languages:
@@ -317,6 +311,6 @@ cv:
         summary: "Native"
 
     Extra:
-      - title: "Military Service"
+      - name: "Military Service"
         summary: "Army sergeant, Discharge after Completing Mandatory Service (Korean Army)"
         date: "2018-01 - 2019-09"
