@@ -27,11 +27,13 @@ if [ ! -f "${distill_page}" ]; then
   exit 1
 fi
 
+baseurl="$(ruby -ryaml -e 'config = YAML.safe_load_file("_config.yml", aliases: true) || {}; print config.fetch("baseurl", "").to_s.sub(%r{/$}, "")')"
+
 grep -q 'd-front-matter' "${distill_page}"
-grep -q '/assets/js/distillpub/template.v2.js' "${distill_page}"
-grep -q '/assets/js/distillpub/transforms.v2.js' "${distill_page}"
-grep -q '/assets/js/distillpub/overrides.js' "${distill_page}"
-grep -q '/assets/al_charts/js/mermaid-setup.js' "${distill_page}"
+grep -Fq "${baseurl}/assets/js/distillpub/template.v2.js" "${distill_page}"
+grep -Fq "${baseurl}/assets/js/distillpub/transforms.v2.js" "${distill_page}"
+grep -Fq "${baseurl}/assets/js/distillpub/overrides.js" "${distill_page}"
+grep -Fq "${baseurl}/assets/al_charts/js/mermaid-setup.js" "${distill_page}"
 grep -q 'https://cdn.jsdelivr.net/npm/@planktimerr/tikzjax@1.0.8/dist/fonts.css' "${distill_page}"
 grep -q 'https://cdn.jsdelivr.net/npm/@planktimerr/tikzjax@1.0.8/dist/tikzjax.js' "${distill_page}"
 grep -q 'id="giscus_thread"' "${distill_page}"
