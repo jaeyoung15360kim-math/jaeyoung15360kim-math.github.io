@@ -32,13 +32,15 @@ I am a Ph.D. student in the [Department of Mathematical Sciences](https://math.s
 📄 **Curriculum Vitae**: You can view or download my official [<i class="fa-solid fa-file-pdf"></i> **CV**]({{ '/assets/pdf/CV_Jaeyoung_Kim.pdf' | relative_url }}) (PDF) or [<i class="fa-solid fa-file-code"></i> **LaTeX source**]({{ '/assets/pdf/CV_Jaeyoung_Kim.tex' | relative_url }}) (TeX).
 
 ### Research Interests
+
 My primary research area is **Homogeneous Dynamics** of higher-rank Lie groups over real or non-Archimedean local field settings, Ergodic Theory, and dynamics on buildings.
 
 ---
 
 ### Education & Academic Career
+
 - **Integrated M.S. / Ph.D. Course in Mathematical Sciences** | Seoul National University (3/2022 – Present)
 - **Graduate Research Assistant** | Homogeneous Dynamics Lab (PI: Seonhee Lim), SNU (8/2022 – Present)
 - **Research Internship** | Quantum Information Theory (PI: Sang-Gyun Youn), SNU (6/2020 – 3/2021)
 - **B.S. in Mathematical Education** | Seoul National University (3/2016 – 2/2022)  
-  *(Leave for Mandatory Military Service: 1/2018 – 9/2019)*
+  _(Leave for Mandatory Military Service: 1/2018 – 9/2019)_

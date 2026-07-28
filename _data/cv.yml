@@ -21,7 +21,7 @@ cv:
     Education:
       - institution: Seoul National University (SNU)
         location: Seoul, South Korea
-        area: Homogeneous Dynamics (PI: Seonhee Lim)
+        area: "Homogeneous Dynamics (PI: Seonhee Lim)"
         studyType: Graduate Research Assistant
         start_date: "2022-08"
         end_date: Present
@@ -38,7 +38,7 @@ cv:
 
       - institution: Seoul National University (SNU)
         location: Seoul, South Korea
-        area: Quantum Information Theory (PI: Sang-Gyun Youn)
+        area: "Quantum Information Theory (PI: Sang-Gyun Youn)"
         studyType: Research Internship
         start_date: "2020-06"
         end_date: "2021-03"

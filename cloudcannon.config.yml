@@ -1,5 +1,5 @@
 paths:
-  static: ''
+  static: ""
   uploads: uploads
 timezone: Asia/Seoul
 markdown:
@@ -24,7 +24,7 @@ collections_config:
     path: _pages
     icon: wysiwyg
   source:
-    path: ''
+    path: ""
     icon: package_2
     disable_url: true
   books:

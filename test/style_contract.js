@@ -6,8 +6,31 @@ const root = process.cwd();
 const read = (relPath) => fs.readFileSync(path.join(root, relPath), "utf8");
 const exists = (relPath) => fs.existsSync(path.join(root, relPath));
 const escapeRegExp = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+const listFiles = (relPath) => {
+  const fullPath = path.join(root, relPath);
+  if (!fs.statSync(fullPath).isDirectory()) {
+    return [relPath.replaceAll("\\", "/")];
+  }
+
+  return fs
+    .readdirSync(fullPath, { recursive: true, withFileTypes: true })
+    .filter((entry) => entry.isFile())
+    .map((entry) => path.join(relPath, entry.parentPath.slice(fullPath.length), entry.name).replaceAll("\\", "/"));
+};
 
 const failures = [];
+const acceptedOverrides = new Set();
+
+if (exists(".al-folio-overrides.yml")) {
+  const overrideManifest = read(".al-folio-overrides.yml");
+  for (const block of overrideManifest.split(/(?=^\s*-\s+path:)/m)) {
+    const overridePath = block.match(/^\s*-\s+path:\s+["']?([^"'\r\n]+?)["']?\s*$/m)?.[1];
+    const status = block.match(/^\s+status:\s+(\S+)\s*$/m)?.[1];
+    if (overridePath && status === "accepted") {
+      acceptedOverrides.add(overridePath.replaceAll("\\", "/"));
+    }
+  }
+}
 
 const packageJson = JSON.parse(read("package.json"));
 const scripts = packageJson.scripts || {};
@@ -63,7 +86,12 @@ if (/gem 'al_math',\s*:git =>/.test(gemfile)) {
 
 for (const forbiddenPath of ["_includes", "_layouts", "_sass", "_scripts", "assets/tailwind", "tailwind.config.js", "assets/webfonts"]) {
   if (exists(forbiddenPath)) {
-    failures.push(`Starter must not own core component path \`${forbiddenPath}\`; move ownership to the corresponding gem.`);
+    const unacknowledgedFiles = listFiles(forbiddenPath).filter((file) => !acceptedOverrides.has(file));
+    if (unacknowledgedFiles.length > 0) {
+      failures.push(
+        `Starter has unacknowledged core component files under \`${forbiddenPath}\`: ${unacknowledgedFiles.join(", ")}. Move them to the corresponding gem or accept them as intentional overrides.`
+      );
+    }
   }
 }
 
