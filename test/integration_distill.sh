@@ -27,7 +27,7 @@ if [ ! -f "${distill_page}" ]; then
   exit 1
 fi
 
-baseurl="$(ruby -ryaml -e 'config = YAML.safe_load_file("_config.yml", aliases: true) || {}; print config.fetch("baseurl", "").to_s.sub(%r{/$}, "")')"
+baseurl="$(ruby -ryaml -rdate -e 'config = YAML.safe_load_file("_config.yml", permitted_classes: [Date], aliases: true) || {}; print config.fetch("baseurl", "").to_s.sub(%r{/$}, "")')"
 
 grep -q 'd-front-matter' "${distill_page}"
 grep -Fq "${baseurl}/assets/js/distillpub/template.v2.js" "${distill_page}"
