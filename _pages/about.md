@@ -14,7 +14,7 @@ profile:
     <p><strong>Advisor:</strong> Prof. Seonhee Lim</p>
     <p><strong>Email:</strong> <span class="email-protected">jaeyoungkim22 (at) snu.ac.kr</span></p>
     <p><strong>GitHub:</strong> <a href="https://github.com/young15360" target="_blank">young15360</a></p>
-    <p><strong>Curriculum Vitae:</strong> <a href="{{ '/assets/pdf/CV_Jaeyoung_Kim.pdf' | relative_url }}" target="_blank" class="badge font-weight-bold">CV (PDF)</a> | <a href="{{ '/assets/pdf/CV_Jaeyoung_Kim.tex' | relative_url }}" target="_blank" class="badge font-weight-bold">CV (TeX)</a></p>
+    <p><strong>Curriculum Vitae:</strong> <a href="assets/pdf/CV_Jaeyoung_Kim.pdf" target="_blank" class="badge font-weight-bold">CV (PDF)</a> | <a href="assets/pdf/CV_Jaeyoung_Kim.tex" target="_blank" class="badge font-weight-bold">CV (TeX)</a></p>
     <p><strong>Address:</strong> 1, Gwanak-ro, Gwanak-gu, Seoul, 08826, South Korea</p>
 
 selected_papers: true
