@@ -10,8 +10,20 @@
         {% endif %}
       </a>
 
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+        aria-label="Open navigation menu"
+      >
+        <span class="nav-toggle-line" aria-hidden="true"></span>
+        <span class="nav-toggle-line" aria-hidden="true"></span>
+        <span class="nav-toggle-line" aria-hidden="true"></span>
+      </button>
+
       <!-- Right Navigation Items (Horizontal Row) -->
-      <div class="nav-right">
+      <div id="site-navigation" class="nav-right">
         <ul class="nav-menu">
           {% assign nav_pages = site.pages | where: 'nav', true | sort: 'nav_order' %}
           {% for p in nav_pages %}

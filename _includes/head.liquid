@@ -23,6 +23,11 @@
 <!-- Custom Site CSS Override -->
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 
+{% al_math_styles %}
+{% al_math_scripts %}
+
+<script defer src="{{ '/assets/js/mobile-nav.js' | relative_url }}"></script>
+
 {% if site.al_folio.compat.bootstrap.enabled %}
   <!-- Optional Bootstrap compatibility layer -->
   <link rel="stylesheet" href="{{ '/assets/css/bootstrap-compat.css' | relative_url | bust_file_cache }}">
