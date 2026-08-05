@@ -1,6 +1,6 @@
 # Jaeyoung Kim
 
-Source for [Jaeyoung Kim's academic website](https://young15360.github.io/jaeyoungkim-math/).
+Source for [Jaeyoung Kim's academic website](https://jaeyoung15360kim-math.github.io/jaeyoungkim-math/).
 
 The public site contains only:
 

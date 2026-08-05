@@ -40,7 +40,7 @@ al_folio:
     distill:
       enabled: true
 giscus:
-  repo: young15360/jaeyoungkim-math
+  repo: jaeyoung15360kim-math/jaeyoungkim-math
   repo_id: R_kgDOExample
   category: Comments
   category_id: DIC_kwDOExample
