@@ -28,7 +28,9 @@ for removed_route in blog repositories projects cv books news plugins; do
   fi
 done
 
-test "$(grep -o 'href="mailto:jaeyoungkim22@snu.ac.kr"' "${home}" | wc -l)" -eq 1
+! grep -qi 'mailto:' "${home}"
+! grep -qiE '[[:alnum:]._%+-]+@[[:alnum:].-]+\.[[:alpha:]]{2,}' "${home}"
+grep -q 'id="contact-email"' "${home}"
 test "$(grep -o '/assets/pdf/CV_Jaeyoung_Kim.pdf' "${home}" | wc -l)" -eq 1
 ! grep -qiE 'prof_pic|einstein|selected publications' "${home}"
 ! grep -qiE '>blog<|>repositories<|>CV<' "${home}"

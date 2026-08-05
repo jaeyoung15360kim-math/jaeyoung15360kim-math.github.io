@@ -11,10 +11,12 @@ test("navigation exposes only CV-backed site sections", async ({ page }) => {
   await expect(page.getByRole("link", { name: "CV", exact: true })).toHaveCount(0);
 });
 
-test("home has one contact email, one CV link, and no profile image", async ({ page }) => {
+test("home has one obfuscated, non-clickable email, one CV link, and no profile image", async ({ page }) => {
   await page.goto("/", { waitUntil: "networkidle" });
 
-  await expect(page.locator('a[href="mailto:jaeyoungkim22@snu.ac.kr"]')).toHaveCount(1);
+  await expect(page.locator('a[href^="mailto:"]')).toHaveCount(0);
+  await expect(page.locator("#contact-email")).toHaveText("jaeyoungkim22 at snu.ac.kr");
+  await expect(page.locator("#contact-email")).toHaveJSProperty("tagName", "SPAN");
   await expect(page.locator('a[href$="/assets/pdf/CV_Jaeyoung_Kim.pdf"]')).toHaveCount(1);
   await expect(page.locator("main img")).toHaveCount(0);
   await expect(page.getByText("Selected publications", { exact: false })).toHaveCount(0);

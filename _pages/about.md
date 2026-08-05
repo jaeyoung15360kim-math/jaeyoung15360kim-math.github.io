@@ -15,7 +15,8 @@ latest_posts:
 I am a Ph.D. student in the [Department of Mathematical Sciences](https://math.snu.ac.kr) at **Seoul National University (SNU)**, working under the supervision of [Prof. Seonhee Lim](https://www.math.snu.ac.kr/~lim/research.html) in the [DASOM](https://www.math.snu.ac.kr/~lim/DASOM.html) research group.
 
 <p class="contact-links">
-  <a href="mailto:jaeyoungkim22@snu.ac.kr"><i class="fa-solid fa-envelope" aria-hidden="true"></i> jaeyoungkim22@snu.ac.kr</a>
+  <span class="contact-email"><i class="fa-solid fa-envelope" aria-hidden="true"></i> <span id="contact-email" class="email-protected"></span></span>
+  <noscript>Email available with JavaScript enabled.</noscript>
   <span aria-hidden="true">·</span>
   <a href="{{ '/assets/pdf/CV_Jaeyoung_Kim.pdf' | relative_url }}"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i> Curriculum Vitae</a>
 </p>
