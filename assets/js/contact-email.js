@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{const t=document.querySelector("#contact-email");if(!t)return;const e=t=>String.fromCharCode(...t),n=e([106,97,101,121,111,117,110,103,107,105,109,50,50]),o=e([115,110,117,46,97,99,46,107,114]);t.textContent=`${n} at ${o}`});
