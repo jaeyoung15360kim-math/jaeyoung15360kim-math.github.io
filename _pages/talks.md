@@ -9,19 +9,19 @@ nav_order: 3
 
 ### Contributed & Poster Talks
 
-1. **Markov chain of diagonal action on the standard quotient of the building associated to $\text{PGL}_3(\mathbb{F}_q((t^{-1})))$** (06/2025)
+1. **Markov chain of diagonal action on the standard quotient of the building associated to $\text{PGL}\_3(\mathbb{F}\_q((t^{-1})))$** (06/2025)
    - _Poster Session_, [Beyond Uniform Hyperbolicity](https://sites.google.com/view/beyonduniformhyperbolicity2025/home?authuser=0), Abdus Salam International Centre for Theoretical Physics (ICTP), Trieste, Italy
 
-2. **Markov chain of diagonal action on the standard quotient of the building associated to $\text{PGL}_3(\mathbb{F}_q((t^{-1})))$** (10/2024)
+2. **Markov chain of diagonal action on the standard quotient of the building associated to $\text{PGL}\_3(\mathbb{F}\_q((t^{-1})))$** (10/2024)
    - _Special Session_, [2024 KMS Annual Meeting](https://www.kms.or.kr/conference/2024_fall/), Korean Mathematical Society (KMS), Suwon, South Korea
 
-3. **Dynamical property for horospherical action on the standard quotient of the building $\mathcal{B}_3(\mathbb{F}_q((t^{-1})))$** (08/2024)
+3. **Dynamical property for horospherical action on the standard quotient of the building $\mathcal{B}\_3(\mathbb{F}\_q((t^{-1})))$** (08/2024)
    - _Lightning Talk_, [Dynamical Group Theory III: New Methods in Group Actions on Manifolds](https://dgt3.kimsh.kr/), KIAS, Seoul, South Korea
 
-4. **Dynamical property for horospherical action on the standard quotient of the building $\mathcal{B}_3(\mathbb{F}_q((t^{-1})))$** (04/2024)
+4. **Dynamical property for horospherical action on the standard quotient of the building $\mathcal{B}\_3(\mathbb{F}\_q((t^{-1})))$** (04/2024)
    - _Lightning Talk_, [Introductory school: Rigidity, Dynamics and Geometric Structures](https://conferences.cirm-math.fr/2968.html), CIRM, Marseille, France
 
-5. **Non-escape of mass for horospherical action on the standard quotient of the building $\mathcal{B}_3(\mathbb{F}_q((t^{-1})))$ under type 1 geodesic flow** (10/2023)
+5. **Non-escape of mass for horospherical action on the standard quotient of the building $\mathcal{B}\_3(\mathbb{F}\_q((t^{-1})))$ under type 1 geodesic flow** (10/2023)
    - _Poster Session_, [2023 KMS Annual Fall Meeting](https://www.kms.or.kr/conference/2023_fall/), KMS, Seoul, South Korea
 
 ---
@@ -36,13 +36,13 @@ nav_order: 3
   _SNU Graduate Course: Differential Geometry 2_
 - **Sullivan's No Wandering Domain Theorem** (10/2024)  
   _SNU Graduate Course: Differential Geometry 2_
-- **Markov chain of diagonal action on the standard quotient of the building associated to $\text{PGL}_3(\mathbb{F}_q((t^{-1})))$** (10/2024)  
+- **Markov chain of diagonal action on the standard quotient of the building associated to $\text{PGL}\_3(\mathbb{F}\_q((t^{-1})))$** (10/2024)<br>
   _Exchange Seminar_
 - **Iteration of Polynomial-like maps** (09/2024)  
   _SNU Graduate Course: Differential Geometry 2_
 - **The Scope of Dirichlet forms: Closability and Examples** (04/2024)  
   _Course: Topics in Mathematical Methods of Probability_
-- **Bruhat-Tits tree of $\text{SL}_2$ over a local field** (03/2024)  
+- **Bruhat-Tits tree of $\text{SL}\_2$ over a local field** (03/2024)<br>
   _Research Seminar on Homogeneous Dynamics, SNU_
 - **Work of Ciobotaru, Finkelshtein, Sert: Non-escape of mass and Equidistribution for Horospherical actions on Trees** (08/2023)  
   _Exchange Seminar, SNU_

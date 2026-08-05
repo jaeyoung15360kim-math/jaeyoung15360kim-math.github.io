@@ -36,6 +36,13 @@ test("publication abstract expands without exposing BibTeX", async ({ page }) =>
   await expect(page.getByText("BibTeX", { exact: false })).toHaveCount(0);
 });
 
+test("talk titles render inline mathematics without raw Markdown delimiters", async ({ page }) => {
+  await page.goto("/talks/", { waitUntil: "networkidle" });
+
+  await expect.poll(async () => page.locator("mjx-container").count()).toBe(7);
+  await expect(page.locator("main")).not.toContainText("$");
+});
+
 test("teaching contains only entries synchronized from the CV", async ({ page }) => {
   await page.goto("/teaching/", { waitUntil: "networkidle" });
 
