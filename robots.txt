@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://jaeyoung15360kim-math.github.io/sitemap.xml
+Sitemap: https://jaeyoung15360kim-math.github.io//sitemap.xml
