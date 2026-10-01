@@ -14,26 +14,27 @@ latest_posts:
 
 <style>
   .name-container {
-    text-align: center;
+    text-align: left;
     margin: 1em 0 1.5em 0;
   }
-  
+
   .name-container h1 {
     font-size: 2.2em;
     margin: 0;
     line-height: 1.4;
     letter-spacing: 0.02em;
+    display: inline-block;
   }
-  
+
   .name-s, .name-m, .name-k {
     cursor: pointer;
     transition: color 0.2s ease;
   }
-  
+
   .name-s:hover, .name-m:hover, .name-k:hover {
     font-weight: 600;
   }
-  
+
   .english-name {
     white-space: nowrap;
   }
@@ -51,22 +52,23 @@ latest_posts:
             onmouseover="document.querySelectorAll('.name-k').forEach(x => x.style.color='#D1495B')"
             onmouseout="document.querySelectorAll('.name-k').forEach(x => x.style.color='inherit')">Kim</span>
     </span>
-    <br>
-    (<span class="name-k"
-          onmouseover="document.querySelectorAll('.name-k').forEach(x => x.style.color='#D1495B')"
-          onmouseout="document.querySelectorAll('.name-k').forEach(x => x.style.color='inherit')">김</span><span class="name-s"
-          onmouseover="document.querySelectorAll('.name-s').forEach(x => x.style.color='#D99700')"
-          onmouseout="document.querySelectorAll('.name-s').forEach(x => x.style.color='inherit')">재</span><span class="name-m"
-          onmouseover="document.querySelectorAll('.name-m').forEach(x => x.style.color='#0077B6')"
-          onmouseout="document.querySelectorAll('.name-m').forEach(x => x.style.color='inherit')">영</span>
-    /
-    <span class="name-k"
-          onmouseover="document.querySelectorAll('.name-k').forEach(x => x.style.color='#D1495B')"
-          onmouseout="document.querySelectorAll('.name-k').forEach(x => x.style.color='inherit')">金</span><span class="name-s"
-          onmouseover="document.querySelectorAll('.name-s').forEach(x => x.style.color='#D99700')"
-          onmouseout="document.querySelectorAll('.name-s').forEach(x => x.style.color='inherit')">才</span><span class="name-m"
-          onmouseover="document.querySelectorAll('.name-m').forEach(x => x.style.color='#0077B6')"
-          onmouseout="document.querySelectorAll('.name-m').forEach(x => x.style.color='inherit')">永</span>)
+    <span>
+      (<span class="name-k"
+            onmouseover="document.querySelectorAll('.name-k').forEach(x => x.style.color='#D1495B')"
+            onmouseout="document.querySelectorAll('.name-k').forEach(x => x.style.color='inherit')">김</span><span class="name-s"
+            onmouseover="document.querySelectorAll('.name-s').forEach(x => x.style.color='#D99700')"
+            onmouseout="document.querySelectorAll('.name-s').forEach(x => x.style.color='inherit')">재</span><span class="name-m"
+            onmouseover="document.querySelectorAll('.name-m').forEach(x => x.style.color='#0077B6')"
+            onmouseout="document.querySelectorAll('.name-m').forEach(x => x.style.color='inherit')">영</span>
+      /
+      <span class="name-k"
+            onmouseover="document.querySelectorAll('.name-k').forEach(x => x.style.color='#D1495B')"
+            onmouseout="document.querySelectorAll('.name-k').forEach(x => x.style.color='inherit')">金</span><span class="name-s"
+            onmouseover="document.querySelectorAll('.name-s').forEach(x => x.style.color='#D99700')"
+            onmouseout="document.querySelectorAll('.name-s').forEach(x => x.style.color='inherit')">才</span><span class="name-m"
+            onmouseover="document.querySelectorAll('.name-m').forEach(x => x.style.color='#0077B6')"
+            onmouseout="document.querySelectorAll('.name-m').forEach(x => x.style.color='inherit')">永</span>)
+    </span>
   </h1>
 </div>
 
