@@ -68,8 +68,6 @@ latest_posts:
   </h1>
 </div>
 
-PhD Student, Department of Mathematical Sciences, Seoul National University
-
 I am a Ph.D. student in the [Department of Mathematical Sciences](https://math.snu.ac.kr) at **Seoul National University (SNU)**, working under the supervision of [Prof. Seonhee Lim](https://sites.google.com/view/seonheelim).
 
 <p class="contact-links">
