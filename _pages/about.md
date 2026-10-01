@@ -13,6 +13,11 @@ latest_posts:
 ---
 
 <style>
+  /* Hide the auto-generated page title from the theme */
+  .page-title {
+    display: none;
+  }
+
   .name-container {
     text-align: left;
     margin: 0 0 1.5em 0;
