@@ -1,17 +1,11 @@
 ---
 layout: page
 permalink: /publications/
-title: ""
+title: Publications
 description: Publications and current research listed in my CV.
 nav: true
 nav_order: 2
 ---
-
-<style>
-  .page-title {
-    display: none !important;
-  }
-</style>
 
 <ol class="publication-list">
   {% for publication in site.data.site_cv.publications %}
