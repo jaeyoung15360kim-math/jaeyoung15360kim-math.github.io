@@ -39,6 +39,26 @@ latest_posts:
   .name-s:hover, .name-m:hover, .name-k:hover {
     font-weight: 700;
   }
+  
+.profile-photo {
+  float: right;
+  width: min(32%, 13rem);
+  margin: 0 0 1rem 2rem;
+}
+
+.profile-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+  .profile-photo {
+    width: min(38%, 10rem);
+    margin-left: 1rem;
+  }
+}
 </style>
 
 <div class="name-container">
@@ -67,6 +87,13 @@ latest_posts:
           onmouseout="document.querySelectorAll('.name-m').forEach(x => x.style.color='inherit')">永</span>)
   </h1>
 </div>
+
+<figure class="profile-photo">
+  <img
+    src="{{ '/assets/image/jaeyoung-kim.jpg' | relative_url }}"
+    alt="Jaeyoung Kim"
+  >
+</figure>
 
 I am a Ph.D. student in the [Department of Mathematical Sciences](https://math.snu.ac.kr) at **Seoul National University (SNU)**, working under the supervision of [Prof. Seonhee Lim](https://sites.google.com/view/seonheelim).
 
