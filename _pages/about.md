@@ -13,10 +13,10 @@ latest_posts:
 ---
 
 <style>
-  /* Hide the auto-generated page title from the theme */
-  .page-title {
-    display: none;
-  }
+  /* Hide the duplicate title on the homepage; keep the header brand visible. */
+  .post-title {
+    display: none !important;
+   }
 
   .name-container {
     text-align: left;
