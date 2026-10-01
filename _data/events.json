@@ -1,0 +1,363 @@
+[
+  {
+    "id": "2026-08-kias-group-actions-number-theory-dynamics",
+    "name": "Intensive lecture series in Group Actions, Number Theory and Dynamics",
+    "start": "2026-08-11",
+    "end": "2026-08-12",
+    "host": "KIAS",
+    "location": "Seoul, South Korea",
+    "url": "https://sites.google.com/view/2026gnd/%ED%99%88",
+    "attended": true
+  },
+  {
+    "id": "2026-08-workshop-ergodic-theory-related-fields",
+    "name": "Workshop on Ergodic Theory and Related Fields",
+    "start": "2026-08-24",
+    "end": "2026-08-26",
+    "host": "Postech BSRI",
+    "location": "La Valse Hotel, Busan, South Korea",
+    "url": "https://sites.google.com/view/workshop26-etds/home",
+    "attended": true
+  },
+  {
+    "id": "2026-06-kms-80th-anniversary-international-conference",
+    "name": "International Conference for the 80th Anniversary of the Korean Mathematical Society",
+    "start": "2026-06-22",
+    "end": "2026-06-25",
+    "host": "Korean Mathematical Society (KMS)",
+    "location": "ST Center, Seoul, South Korea",
+    "url": "https://www.kms.or.kr/conference/meeting/index.html?period=91",
+    "attended": true
+  },
+  {
+    "id": "2026-06-young-geometric-group-theory-xiv",
+    "name": "Young Geometric Group Theory XIV",
+    "start": "2026-06-08",
+    "end": "2026-06-12",
+    "host": "KIAS",
+    "location": "Seoul, South Korea",
+    "url": "https://sites.google.com/view/yggt2026/",
+    "attended": true
+  },
+  {
+    "id": "2026-05-kias-graduate-student-meeting-pure-mathematics",
+    "name": "3rd KIAS Graduate Student Meeting in Pure Mathematics",
+    "start": "2026-05-07",
+    "end": "",
+    "host": "KIAS",
+    "location": "Seoul, South Korea",
+    "url": "https://sites.google.com/view/gsm-3/home",
+    "attended": true,
+    "presentation": {
+      "role": "Lecture",
+      "title_tex": "Distribution of Matrix-Valued Quadratic Forms: Connections between Quadratic Forms, Hamiltonian Matrices, and Limit Sets",
+      "talk_location": "KIAS, Seoul, South Korea",
+      "date": "2026-05-07"
+    }
+  },
+  {
+    "id": "2026-04-homogeneous-dynamics-anosov-representations",
+    "name": "Homogeneous Dynamics and Anosov Representations",
+    "start": "2026-04-20",
+    "end": "2026-04-24",
+    "host": "SLMath",
+    "location": "Berkeley, USA",
+    "url": "https://www.slmath.org/workshops/1137",
+    "attended": true
+  },
+  {
+    "id": "2026-02-spring-day-dynamics-number-theory",
+    "name": "A Spring Day in Dynamics and Number Theory",
+    "start": "2026-02-25",
+    "end": "",
+    "host": "Dongguk University",
+    "location": "Seoul, South Korea",
+    "url": "https://sites.google.com/view/springdday",
+    "attended": true
+  },
+  {
+    "id": "2026-01-algebra-camp",
+    "name": "2026 Algebra Camp",
+    "start": "2026-01-25",
+    "end": "2026-01-29",
+    "host": "QSMS",
+    "location": "Chuncheon, South Korea",
+    "url": "https://sites.google.com/snu.ac.kr/algebra-camp2026/home",
+    "attended": true
+  },
+  {
+    "id": "2025-11-dynamical-group-theory-vii",
+    "name": "Dynamical Group Theory VII",
+    "start": "2025-11-26",
+    "end": "2025-11-28",
+    "host": "KIAS",
+    "location": "SNU, Seoul, South Korea",
+    "url": "https://sites.google.com/view/dgtvii",
+    "attended": true
+  },
+  {
+    "id": "2025-10-kms-annual-meeting",
+    "name": "2025 KMS Annual Meeting",
+    "start": "2025-10-22",
+    "end": "2025-10-24",
+    "host": "KMS",
+    "location": "ST Center, Seoul, South Korea",
+    "url": "https://www.kms.or.kr/conference/meeting/index.html?period=90",
+    "attended": true
+  },
+  {
+    "id": "2025-09-dynamical-group-theory-vi",
+    "name": "Dynamical Group Theory VI",
+    "start": "2025-09-18",
+    "end": "",
+    "host": "KIAS",
+    "location": "Seoul, South Korea",
+    "url": "https://sites.google.com/view/dgt6",
+    "attended": true
+  },
+  {
+    "id": "2025-09-numeration-and-substitution",
+    "name": "Numeration and Substitution 2025",
+    "start": "2025-09-08",
+    "end": "2025-09-12",
+    "host": "CCSD, sciencesCONF, University of Tsukuba",
+    "location": "University of Tsukuba, Tsukuba, Japan",
+    "url": "https://numeration2025.sciencesconf.org",
+    "attended": true
+  },
+  {
+    "id": "2025-08-2k-gate-festival",
+    "name": "2025 2K-GATE One day Geometric Topology Festival",
+    "start": "2025-08-29",
+    "end": "",
+    "host": "KIAS-KAIST",
+    "location": "KIAS, Seoul, South Korea",
+    "url": "https://sites.google.com/view/2025-one-day-gt-fest/home",
+    "attended": true
+  },
+  {
+    "id": "2025-08-summer-dynamics-day",
+    "name": "A Summer Dynamics Day",
+    "start": "2025-08-21",
+    "end": "",
+    "host": "Dongguk University",
+    "location": "Seoul, South Korea",
+    "url": "https://sites.google.com/view/summerdday",
+    "attended": true
+  },
+  {
+    "id": "2025-08-group-actions-geometry-dynamics",
+    "name": "One-day Festival of Group actions, Geometry and Dynamics",
+    "start": "2025-08",
+    "end": "",
+    "host": "KIAS",
+    "location": "Seoul, South Korea",
+    "url": "https://sites.google.com/view/ggdfestival2025",
+    "attended": true
+  },
+  {
+    "id": "2025-07-higher-rank-lie-groups",
+    "name": "Geometry and Dynamics in Higher Rank Lie Groups",
+    "start": "2025-07-14",
+    "end": "2025-07-25",
+    "host": "SLMath",
+    "location": "Berkeley, USA",
+    "url": "https://www.slmath.org/summer-schools/1104",
+    "attended": true
+  },
+  {
+    "id": "2025-06-beyond-uniform-hyperbolicity",
+    "name": "Beyond Uniform Hyperbolicity",
+    "start": "2025-06-02",
+    "end": "2025-06-13",
+    "host": "ICTP",
+    "location": "Trieste, Italy",
+    "url": "https://sites.google.com/view/beyonduniformhyperbolicity2025/home?authuser=0",
+    "attended": true,
+    "presentation": {
+      "role": "Poster Session",
+      "title_tex": "Markov chain of diagonal action on the standard quotient of the building associated to $\\mathrm{PGL}_3\\left(\\mathbb{F}_q(\\!(t^{-1})\\!)\\right)$",
+      "talk_location": "Trieste, Italy"
+    }
+  },
+  {
+    "id": "2025-04-kms-spring-meeting",
+    "name": "2025 KMS Spring Meeting",
+    "start": "2025-04",
+    "end": "",
+    "host": "KMS",
+    "location": "Daejeon, South Korea",
+    "url": "https://www.kms.or.kr/conference/2025_spring/",
+    "attended": true
+  },
+  {
+    "id": "2025-03-homogeneous-complex-dynamics",
+    "name": "Workshop on Homogeneous and Complex Dynamics 2025",
+    "start": "2025-03",
+    "end": "",
+    "host": "SNU",
+    "location": "Seoul, South Korea",
+    "url": "https://www.math.snu.ac.kr/~lim/Workshop25.html",
+    "attended": true
+  },
+  {
+    "id": "2025-01-kias-lfant-winter-school",
+    "name": "KIAS-LFANT Winter School on Number Theory",
+    "start": "2025-01",
+    "end": "",
+    "host": "KIAS",
+    "location": "Seoul, South Korea",
+    "url": "http://events.kias.re.kr/h/KIASLFANT2025/?pageNo=5744",
+    "attended": true
+  },
+  {
+    "id": "2024-10-kms-annual-meeting",
+    "name": "2024 KMS Annual Meeting",
+    "start": "2024-10",
+    "end": "",
+    "host": "KMS",
+    "location": "Suwon, South Korea",
+    "url": "https://www.kms.or.kr/conference/2024_fall/",
+    "attended": true,
+    "presentation": {
+      "role": "Special Session",
+      "title_tex": "Markov chain of diagonal action on the standard quotient of the building associated to $\\mathrm{PGL}_3\\left(\\mathbb{F}_q(\\!(t^{-1})\\!)\\right)$",
+      "talk_location": "Suwon, South Korea"
+    }
+  },
+  {
+    "id": "2024-09-dynamical-group-theory-iv",
+    "name": "Dynamical Group Theory IV: KIAS-Rice Workshop on Geometric Topology",
+    "start": "2024-09",
+    "end": "",
+    "host": "HCMC of KIAS",
+    "location": "Seoul, South Korea",
+    "url": "https://sites.google.com/view/dgt4-kias",
+    "attended": true
+  },
+  {
+    "id": "2024-08-dynamical-group-theory-iii",
+    "name": "Dynamical Group Theory III: New Methods in Group Actions on Manifolds",
+    "start": "2024-08",
+    "end": "",
+    "host": "KIAS",
+    "location": "Seoul, South Korea",
+    "url": "https://dgt3.kimsh.kr/",
+    "attended": true,
+    "presentation": {
+      "role": "Lightning Talk",
+      "title_tex": "Dynamical property for horospherical action on the standard quotient of the building $\\mathcal{B}_3\\!\\left(\\mathbb{F}_q(\\!(t^{-1})\\!)\\right)$",
+      "talk_location": "Seoul, South Korea"
+    }
+  },
+  {
+    "id": "2024-06-p-adic-hodge-theory",
+    "name": "Number Theory Intensive Lecture Series: Introduction to p-adic Hodge theory",
+    "start": "2024-06",
+    "end": "",
+    "host": "POSTECH",
+    "location": "Pohang, South Korea",
+    "url": "https://math.postech.ac.kr/bbs/board.php?bo_table=m07_01&year=2024&month=6&wr_id=82&sc_no=",
+    "attended": true
+  },
+  {
+    "id": "2024-04-rigidity-dynamics-geometric-structures",
+    "name": "Introductory school: Rigidity, Dynamics and Geometric Structures",
+    "start": "2024-04",
+    "end": "",
+    "host": "CIRM",
+    "location": "Marseille, France",
+    "url": "https://conferences.cirm-math.fr/2968.html",
+    "attended": true,
+    "presentation": {
+      "role": "Lightning Talk",
+      "title_tex": "Dynamical property for horospherical action on the standard quotient of the building $\\mathcal{B}_3\\!\\left(\\mathbb{F}_q(\\!(t^{-1})\\!)\\right)$",
+      "talk_location": "Marseille, France"
+    }
+  },
+  {
+    "id": "2024-02-algebra-camp",
+    "name": "2024 Algebra Camp",
+    "start": "2024-02",
+    "end": "",
+    "host": "",
+    "location": "Yangpyeong, South Korea",
+    "url": "https://sites.google.com/snu.ac.kr/algebra-camp2024/",
+    "attended": true
+  },
+  {
+    "id": "2024-01-winter-school-homogeneous-dynamics",
+    "name": "Winter School on Homogeneous Dynamics",
+    "start": "2024-01",
+    "end": "",
+    "host": "Shanghai Center for Mathematical Sciences, Fudan University",
+    "location": "Shanghai, China",
+    "url": "https://scms.fudan.edu.cn/info/4588/6088_1.htm",
+    "attended": true
+  },
+  {
+    "id": "2023-12-hyperbolic-geometry-of-numbers",
+    "name": "Hyperbolic Geometry of Numbers 2023",
+    "start": "2023-12",
+    "end": "",
+    "host": "HCMC of KIAS",
+    "location": "Seoul, South Korea",
+    "url": "https://sites.google.com/view/hygen2023",
+    "attended": true
+  },
+  {
+    "id": "2023-10-kms-annual-fall-meeting",
+    "name": "2023 KMS Annual Fall Meeting: KMS Special Conference with 2022 Fields Medalists",
+    "start": "2023-10",
+    "end": "",
+    "host": "KMS",
+    "location": "Seoul, South Korea",
+    "url": "https://www.kms.or.kr/conference/2023_fall/",
+    "attended": true,
+    "presentation": {
+      "role": "Poster Session",
+      "title_tex": "Non-escape of mass for horospherical action on the standard quotient of the building $\\mathcal{B}_3\\!\\left(\\mathbb{F}_q(\\!(t^{-1})\\!)\\right)$ under type 1 geodesic flow",
+      "talk_location": "SNU, Seoul, South Korea"
+    }
+  },
+  {
+    "id": "2023-08-summer-school-arithmetic-statistics",
+    "name": "Summer School on Arithmetic Statistics",
+    "start": "2023-08",
+    "end": "",
+    "host": "KIAS",
+    "location": "Seoul, South Korea",
+    "url": "http://events.kias.re.kr/h/SSAS23/?pageNo=5106",
+    "attended": true
+  },
+  {
+    "id": "2023-04-kms-spring-meeting",
+    "name": "2023 KMS Spring Meeting",
+    "start": "2023-04",
+    "end": "",
+    "host": "KMS",
+    "location": "Daejeon Convention Center, Daejeon, South Korea",
+    "url": "https://www.kms.or.kr/conference/2023_spring/index.html?period=84",
+    "attended": true
+  },
+  {
+    "id": "2023-04-workshop-dynamics-group-action",
+    "name": "Workshop on Dynamics of Group Action",
+    "start": "2023-04",
+    "end": "",
+    "host": "",
+    "location": "Gangneung, South Korea",
+    "url": "https://sites.google.com/view/2023gangneung",
+    "attended": true
+  },
+  {
+    "id": "2023-01-qsms-winter-workshop",
+    "name": "QSMS 2023 Winter Workshop on Number Theory and Representation Theory",
+    "start": "2023-01",
+    "end": "2023-02",
+    "host": "QSMS",
+    "location": "Lahan Hotel Jeonju, Jeonju, South Korea",
+    "url": "https://sites.google.com/snu.ac.kr/qsms2023",
+    "attended": true
+  }
+]
