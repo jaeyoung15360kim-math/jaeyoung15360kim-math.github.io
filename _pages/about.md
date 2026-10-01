@@ -81,7 +81,7 @@ I am a Ph.D. student in the [Department of Mathematical Sciences](https://math.s
 
 ### Research Interests
 
-My primary research area is **Homogeneous Dynamics** of higher-rank Lie groups over real or non-Archimedean local fields, together with Ergodic Theory and dynamics on buildings.
+My primary research area is **Homogeneous Dynamics** of higher-rank Lie groups over real or non-Archimedean local fields, together with Ergodic Theory and Number Theory.
 
 ---
 
