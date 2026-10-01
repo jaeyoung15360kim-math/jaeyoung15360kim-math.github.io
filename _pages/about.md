@@ -90,7 +90,7 @@ latest_posts:
 
 <figure class="profile-photo">
   <img
-    src="{{ '/assets/image/jaeyoung-kim.jpg' | relative_url }}"
+    src="{{ '/assets/image/picture_260812.jpg' | relative_url }}"
     alt="Jaeyoung Kim"
   >
 </figure>
