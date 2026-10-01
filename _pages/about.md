@@ -1,8 +1,8 @@
 ---
 layout: about
-title: Jaeyoung Kim
+title: /
 permalink: /
-subtitle: PhD Student, Department of Mathematical Sciences, Seoul National University
+subtitle: /
 nav: false
 social: false
 
