@@ -1,8 +1,8 @@
 ---
 layout: about
-title: Jaeyoung Kim
+title: ""
 permalink: /
-subtitle: PhD Student, Department of Mathematical Sciences, Seoul National University
+subtitle: ""
 nav: false
 social: false
 
@@ -15,14 +15,15 @@ latest_posts:
 <style>
   .name-container {
     text-align: left;
-    margin: 1em 0 1.5em 0;
+    margin: 0 0 1.5em 0;
   }
 
   .name-container h1 {
-    font-size: 2.2em;
-    margin: 0;
-    line-height: 1.4;
+    font-size: 2.8em;
+    margin: 0.5em 0 0.5em 0;
+    line-height: 1.2;
     letter-spacing: 0.02em;
+    font-weight: 700;
   }
 
   .name-s, .name-m, .name-k {
@@ -31,7 +32,7 @@ latest_posts:
   }
 
   .name-s:hover, .name-m:hover, .name-k:hover {
-    font-weight: 600;
+    font-weight: 700;
   }
 </style>
 
@@ -61,6 +62,8 @@ latest_posts:
           onmouseout="document.querySelectorAll('.name-m').forEach(x => x.style.color='inherit')">永</span>)
   </h1>
 </div>
+
+PhD Student, Department of Mathematical Sciences, Seoul National University
 
 I am a Ph.D. student in the [Department of Mathematical Sciences](https://math.snu.ac.kr) at **Seoul National University (SNU)**, working under the supervision of [Prof. Seonhee Lim](https://sites.google.com/view/seonheelim).
 
