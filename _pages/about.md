@@ -46,11 +46,55 @@ latest_posts:
   margin: 0 0 1rem 2rem;
 }
 
-.profile-photo img {
+.profile-photo-trigger {
   display: block;
   width: 100%;
-  height: auto;
-  border-radius: 8px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: zoom-in;
+}
+
+.profile-photo-dialog {
+  max-width: 92vw;
+  max-height: 92vh;
+  padding: 1rem;
+  border: 0;
+  border-radius: 0.75rem;
+  background: var(--bg-primary);
+  overflow: auto;
+}
+
+.profile-photo-dialog::backdrop {
+  background: rgb(0 0 0 / 80%);
+}
+
+.profile-photo-dialog img {
+  display: block;
+  width: auto;
+  max-width: 88vw;
+  max-height: 84vh;
+  object-fit: contain;
+  cursor: zoom-in;
+}
+
+.profile-photo-dialog-controls {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 0 0.5rem;
+}
+
+.profile-photo-close {
+  padding: 0.35rem 0.7rem;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+  cursor: pointer;
+}
+
+.contact-links {
+  clear: both;
 }
 
 @media (max-width: 600px) {
@@ -58,7 +102,7 @@ latest_posts:
     width: min(38%, 10rem);
     margin-left: 1rem;
   }
-}
+}  
 </style>
 
 <div class="name-container">
@@ -89,11 +133,43 @@ latest_posts:
 </div>
 
 <figure class="profile-photo">
-  <img
-    src="{{ '/assets/image/picture_260812.jpg' | relative_url }}"
-    alt="Jaeyoung Kim"
+  <button
+    type="button"
+    class="profile-photo-trigger"
+    aria-label="View a larger portrait"
+    aria-haspopup="dialog"
+    onclick="document.getElementById('profile-photo-dialog').showModal()"
   >
+    <img
+      src="{{ '/assets/image/picture_260812.jpg' | relative_url }}"
+      alt="Portrait of Jaeyoung Kim"
+    >
+  </button>
 </figure>
+
+<dialog
+  id="profile-photo-dialog"
+  class="profile-photo-dialog"
+  aria-label="Larger portrait of Jaeyoung Kim"
+>
+  <form method="dialog" class="profile-photo-dialog-controls">
+    <button class="profile-photo-close" aria-label="Close enlarged portrait">
+      Close
+    </button>
+  </form>
+  <a
+    href="{{ '/assets/image/picture_260812.jpg' | relative_url }}"
+    target="_blank"
+    rel="noopener noreferrer"
+    title="Open the original image"
+  >
+    <img
+      src="{{ '/assets/image/picture_260812.jpg' | relative_url }}"
+      alt="Open the original portrait in full size"
+    >
+  </a>
+</dialog>
+
 
 I am a Ph.D. student in the [Department of Mathematical Sciences](https://math.snu.ac.kr) at **Seoul National University (SNU)**, working under the supervision of [Prof. Seonhee Lim](https://sites.google.com/view/seonheelim).
 
