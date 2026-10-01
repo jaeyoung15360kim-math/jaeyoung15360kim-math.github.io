@@ -45,7 +45,12 @@ latest_posts:
   width: min(32%, 13rem);
   margin: 0 0 1rem 2rem;
 }
-
+.profile-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
 .profile-photo-trigger {
   display: block;
   width: 100%;
