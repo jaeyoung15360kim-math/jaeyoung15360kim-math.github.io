@@ -70,7 +70,7 @@ latest_posts:
   </h1>
 </div>
 
-I am a Ph.D. student in the [Department of Mathematical Sciences](https://math.snu.ac.kr) at **Seoul National University (SNU)**, working under the supervision of [Prof. Seonhee Lim](https://www.m[...])
+I am a Ph.D. student in the [Department of Mathematical Sciences](https://math.snu.ac.kr) at **Seoul National University (SNU)**, working under the supervision of [Prof. Seonhee Lim](https://sites.google.com/view/seonheelim).
 
 <p class="contact-links">
   <span class="contact-email"><i class="fa-solid fa-envelope" aria-hidden="true"></i> <span id="contact-email" class="email-protected"></span></span>
