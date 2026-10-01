@@ -1,16 +1,22 @@
 ---
 layout: page
 permalink: /talks/
-title: Talks
+title: ""
 description: Invited talks, presentations, seminars, and conferences attended.
 nav: true
 nav_order: 3
 ---
 
+<style>
+  .post-title {
+    display: none !important;
+  }
+</style>
+
 ### Contributed & Poster Talks
 
 1. **Markov chain of diagonal action on the standard quotient of the building associated to $\text{PGL}\_3(\mathbb{F}\_q((t^{-1})))$** (06/2025)
-   - _Poster Session_, [Beyond Uniform Hyperbolicity](https://sites.google.com/view/beyonduniformhyperbolicity2025/home?authuser=0), Abdus Salam International Centre for Theoretical Physics (ICTP), Trieste, Italy
+   - _Poster Session_, [Beyond Uniform Hyperbolicity](https://sites.google.com/view/beyonduniformhyperbolicity2025/home?authuser=0), Abdus Salam International Centre for Theoretical Physics (ICTP)
 
 2. **Markov chain of diagonal action on the standard quotient of the building associated to $\text{PGL}\_3(\mathbb{F}\_q((t^{-1})))$** (10/2024)
    - _Special Session_, [2024 KMS Annual Meeting](https://www.kms.or.kr/conference/2024_fall/), Korean Mathematical Society (KMS), Suwon, South Korea
