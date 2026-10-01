@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: ""
+title: Teaching
 description: Teaching assistantships, grading experiences, and instructional activities at Seoul National University.
 nav: true
 nav_order: 6
