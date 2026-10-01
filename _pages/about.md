@@ -12,7 +12,52 @@ latest_posts:
   enabled: false
 ---
 
-I am a Ph.D. student in the [Department of Mathematical Sciences](https://math.snu.ac.kr) at **Seoul National University (SNU)**, working under the supervision of [Prof. Seonhee Lim](https://www.math.snu.ac.kr/~lim/research.html) in the [DASOM](https://www.math.snu.ac.kr/~lim/DASOM.html) research group.
+<style>
+  .name-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  .name-s, .name-m, .name-k {
+    cursor: pointer;
+    transition: color 0.2s ease;
+  }
+  
+  .name-s:hover, .name-m:hover, .name-k:hover {
+    font-weight: 600;
+  }
+</style>
+
+<div class="name-container">
+  <h1>
+    <span class="name-s"
+          onmouseover="document.querySelectorAll('.name-s').forEach(x => x.style.color='#D99700')"
+          onmouseout="document.querySelectorAll('.name-s').forEach(x => x.style.color='inherit')">Jae</span><span class="name-m"
+          onmouseover="document.querySelectorAll('.name-m').forEach(x => x.style.color='#0077B6')"
+          onmouseout="document.querySelectorAll('.name-m').forEach(x => x.style.color='inherit')">young</span>
+    <span class="name-k"
+          onmouseover="document.querySelectorAll('.name-k').forEach(x => x.style.color='#D1495B')"
+          onmouseout="document.querySelectorAll('.name-k').forEach(x => x.style.color='inherit')">Kim</span>
+    
+    (<span class="name-k"
+          onmouseover="document.querySelectorAll('.name-k').forEach(x => x.style.color='#D1495B')"
+          onmouseout="document.querySelectorAll('.name-k').forEach(x => x.style.color='inherit')">김</span><span class="name-s"
+          onmouseover="document.querySelectorAll('.name-s').forEach(x => x.style.color='#D99700')"
+          onmouseout="document.querySelectorAll('.name-s').forEach(x => x.style.color='inherit')">재</span><span class="name-m"
+          onmouseover="document.querySelectorAll('.name-m').forEach(x => x.style.color='#0077B6')"
+          onmouseout="document.querySelectorAll('.name-m').forEach(x => x.style.color='inherit')">영</span>,
+    
+    <span class="name-k"
+          onmouseover="document.querySelectorAll('.name-k').forEach(x => x.style.color='#D1495B')"
+          onmouseout="document.querySelectorAll('.name-k').forEach(x => x.style.color='inherit')">金</span><span class="name-s"
+          onmouseover="document.querySelectorAll('.name-s').forEach(x => x.style.color='#D99700')"
+          onmouseout="document.querySelectorAll('.name-s').forEach(x => x.style.color='inherit')">在</span><span class="name-m"
+          onmouseover="document.querySelectorAll('.name-m').forEach(x => x.style.color='#0077B6')"
+          onmouseout="document.querySelectorAll('.name-m').forEach(x => x.style.color='inherit')">英</span>)
+  </h1>
+</div>
+
+I am a Ph.D. student in the [Department of Mathematical Sciences](https://math.snu.ac.kr) at **Seoul National University (SNU)**, working under the supervision of [Prof. Seonhee Lim](https://www.m[...])
 
 <p class="contact-links">
   <span class="contact-email"><i class="fa-solid fa-envelope" aria-hidden="true"></i> <span id="contact-email" class="email-protected"></span></span>
