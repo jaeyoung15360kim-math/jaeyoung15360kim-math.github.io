@@ -137,21 +137,6 @@ latest_posts:
   </h1>
 </div>
 
-<figure class="profile-photo">
-  <button
-    type="button"
-    class="profile-photo-trigger"
-    aria-label="View a larger portrait"
-    aria-haspopup="dialog"
-    onclick="document.getElementById('profile-photo-dialog').showModal()"
-  >
-    <img
-      src="{{ '/assets/image/picture_260812.jpg' | relative_url }}"
-      alt="Portrait of Jaeyoung Kim"
-    >
-  </button>
-</figure>
-
 <dialog
   id="profile-photo-dialog"
   class="profile-photo-dialog"
@@ -174,6 +159,21 @@ latest_posts:
     >
   </a>
 </dialog>
+
+<figure class="profile-photo">
+  <button
+    type="button"
+    class="profile-photo-trigger"
+    aria-label="View a larger portrait"
+    aria-haspopup="dialog"
+    onclick="document.getElementById('profile-photo-dialog').showModal()"
+  >
+    <img
+      src="{{ '/assets/image/picture_260812.jpg' | relative_url }}"
+      alt="Portrait of Jaeyoung Kim"
+    >
+  </button>
+</figure>
 
 
 I am a Ph.D. student in the [Department of Mathematical Sciences](https://math.snu.ac.kr) at **Seoul National University (SNU)**, working under the supervision of [Prof. Seonhee Lim](https://sites.google.com/view/seonheelim).
