@@ -13,47 +13,53 @@ latest_posts:
 ---
 
 <style>
-  .name-container h1 {
-    font-size: 2.5em;
-    margin-bottom: 0.5em;
+  .name-container {
+    text-align: center;
+    margin: 1em 0 1.5em 0;
   }
   
-  .name-s, .name-m, .name-k {
+  .name-container h1 {
+    font-size: 2.2em;
+    margin: 0;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+  }
+  
+  .name-sm, .name-k {
     cursor: pointer;
     transition: color 0.2s ease;
   }
   
-  .name-s:hover, .name-m:hover, .name-k:hover {
+  .name-sm:hover, .name-k:hover {
     font-weight: 600;
+  }
+  
+  .name-container .lang-group {
+    display: inline-block;
+    margin: 0 0.3em;
   }
 </style>
 
 <div class="name-container">
   <h1>
-    <span class="name-s"
-          onmouseover="document.querySelectorAll('.name-s').forEach(x => x.style.color='#D99700')"
-          onmouseout="document.querySelectorAll('.name-s').forEach(x => x.style.color='inherit')">Jae</span><span class="name-m"
-          onmouseover="document.querySelectorAll('.name-m').forEach(x => x.style.color='#0077B6')"
-          onmouseout="document.querySelectorAll('.name-m').forEach(x => x.style.color='inherit')">young</span>
+    <span class="name-sm"
+          onmouseover="document.querySelectorAll('.name-sm').forEach(x => x.style.color='#D99700')"
+          onmouseout="document.querySelectorAll('.name-sm').forEach(x => x.style.color='inherit')">Jaeyoung</span>
     <span class="name-k"
           onmouseover="document.querySelectorAll('.name-k').forEach(x => x.style.color='#D1495B')"
           onmouseout="document.querySelectorAll('.name-k').forEach(x => x.style.color='inherit')">Kim</span>
-    
+    <br>
     (<span class="name-k"
           onmouseover="document.querySelectorAll('.name-k').forEach(x => x.style.color='#D1495B')"
-          onmouseout="document.querySelectorAll('.name-k').forEach(x => x.style.color='inherit')">김</span><span class="name-s"
-          onmouseover="document.querySelectorAll('.name-s').forEach(x => x.style.color='#D99700')"
-          onmouseout="document.querySelectorAll('.name-s').forEach(x => x.style.color='inherit')">재</span><span class="name-m"
-          onmouseover="document.querySelectorAll('.name-m').forEach(x => x.style.color='#0077B6')"
-          onmouseout="document.querySelectorAll('.name-m').forEach(x => x.style.color='inherit')">영</span>,
-    
+          onmouseout="document.querySelectorAll('.name-k').forEach(x => x.style.color='inherit')">김</span><span class="name-sm"
+          onmouseover="document.querySelectorAll('.name-sm').forEach(x => x.style.color='#D99700')"
+          onmouseout="document.querySelectorAll('.name-sm').forEach(x => x.style.color='inherit')">재영</span>
+    /
     <span class="name-k"
           onmouseover="document.querySelectorAll('.name-k').forEach(x => x.style.color='#D1495B')"
-          onmouseout="document.querySelectorAll('.name-k').forEach(x => x.style.color='inherit')">金</span><span class="name-s"
-          onmouseover="document.querySelectorAll('.name-s').forEach(x => x.style.color='#D99700')"
-          onmouseout="document.querySelectorAll('.name-s').forEach(x => x.style.color='inherit')">在</span><span class="name-m"
-          onmouseover="document.querySelectorAll('.name-m').forEach(x => x.style.color='#0077B6')"
-          onmouseout="document.querySelectorAll('.name-m').forEach(x => x.style.color='inherit')">英</span>)
+          onmouseout="document.querySelectorAll('.name-k').forEach(x => x.style.color='inherit')">金</span><span class="name-sm"
+          onmouseover="document.querySelectorAll('.name-sm').forEach(x => x.style.color='#D99700')"
+          onmouseout="document.querySelectorAll('.name-sm').forEach(x => x.style.color='inherit')">才永</span>)
   </h1>
 </div>
 
