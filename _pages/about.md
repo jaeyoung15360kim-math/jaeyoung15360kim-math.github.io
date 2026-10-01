@@ -101,7 +101,12 @@ I am a Ph.D. student in the [Department of Mathematical Sciences](https://math.s
   <span class="contact-email"><i class="fa-solid fa-envelope" aria-hidden="true"></i> <span id="contact-email" class="email-protected"></span></span>
   <noscript>Email available with JavaScript enabled.</noscript>
   <span aria-hidden="true">·</span>
-  <a href="{{ '/assets/pdf/CV_Jaeyoung_Kim.pdf' | relative_url }}"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i> Curriculum Vitae</a>
+  <a href="https://drive.google.com/file/d/19DYyTYiYovxxNkP_ty2DQfh6Pmn2WyXF/view?usp=sharing"
+   target="_blank"
+   rel="noopener noreferrer">
+  <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
+  Curriculum Vitae
+</a>
 </p>
 
 ### Research Interests
